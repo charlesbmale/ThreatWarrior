@@ -1,5 +1,5 @@
 # Introduction to ThreatWarrior
-- Our Capstone Project, Threat Warrior, is a CNN-Based Objection Detection System implemented on a drone and leveraging a fusion of sensors to provide aerial oversight to object detection systems that are currently implemented. Threat Warrior addresses the following:​
+Our Capstone Project, Threat Warrior, is a CNN-Based Objection Detection System implemented on a drone and leveraging a fusion of sensors to provide aerial oversight to object detection systems that are currently implemented. Threat Warrior addresses the following:​
   - A mobile and readily accessible alternative to currently available systems.
   - Utilizing a culmination of sensors to detect both a large array of objects as well as a specified object​.
   - Once detected, the system is designed to properly identify, categorize, and store the perceived object.
