@@ -92,8 +92,13 @@ Add a file structure here with the basic details about files, below is an exampl
 │       │   └── 4.png
 │       ├── background.png
 │       └── students_data.json
-│   
-└── README.md
+│
+├── EncodeFile.p
+├── EncodeGenerator.py
+├── MainDetectionSystem.py
+├── README.md
+├── SetupStudentsDB,py
+└── students.db
 ```
 
 ## :question: FAQ
