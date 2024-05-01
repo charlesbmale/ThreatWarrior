@@ -61,40 +61,41 @@ $ python3 MainDetectionSystemV2.py
 ```
 
 ##  :wrench: Development
-If you want other people to contribute to this project, this is the section, make sure you always add this.
 
 ### :notebook: Pre-Requisites
 List all the pre-requisites the system needs to develop this project.
-- A tool
-- B tool
+- DJI Tello Drone
+- Laptop or Computer
+- YOLOv8 Ultralytics
+- OpenCV
+- IDE or coding environment
 
 ###  :nut_and_bolt: Development Environment
-Write about setting up the working environment for your project.
-- How to download the project...
-- How to install dependencies...
+You will need an IDE like Pycharm or a Python-enabled coding editor.
 
 
 ###  :file_folder: File Structure
 Add a file structure here with the basic details about files, below is an example.
 
 ```
-.
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
+. 
+├── FaceRecognitionCheckV2
+│   ├── Images
+│   │   ├── 001001.PNG
+│   │   ├── 001002.PNG
+│   │   ├── 001003.PNG
+│   │   ├── 001004.PNG
+│   │   ├── 001005.PNG
+│   │   └── 001006.PNG
+│   ├── Resources
+│       ├── Modes
+│       │   ├── 1.png
+│       │   ├── 2.png
+│       │   ├── 3.png
+│       │   └── 4.png
+│       ├── background.png
+│       └── students_data.json
+│   
 └── README.md
 ```
 
