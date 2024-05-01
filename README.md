@@ -29,11 +29,25 @@ Add a detailed introduction about the project here, everything you want the read
 Write about how to use this project.
 
 ###  :electric_plug: Installation
-- Steps on how to install this project, to use it.
+- You can install by either forking the project off of GitHub or downloading the ZIP.
+- Once downloaded, you can pick the IDE or environment of your choice.
+- Once your environment is set, make sure to import/install the following dependencies (you may have to use pip3 if using the command line):
+  - import pickle
+  - import cv2
+  - import os
+  - import numpy as np
+  - import face_recognition
+  - import cvzone
+  - import sqlite3
+  - import json
+  - from datetime import datetime
+  - import pygame
+  - from time import sleep
+  - from djitellopy import Tello, 
 - Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
 
 ```
-$ add installations steps if you have to.
+$ pip3 install pickle; pip3 install cv2; pip3 install os; pip3 install numpy; pip3 install face_recognition, pip3 install cvzone; pip3 install sqlite3; pip3 install json; pip3 install pygame; and other necesary dependencies. 
 ```
 
 ###  :package: Commands
