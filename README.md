@@ -11,15 +11,12 @@
   - [Commands](#package-commands)
 - [Development](#wrench-development)
   - [Pre-Requisites](#notebook-pre-requisites)
-  - [Developmen Environment](#nut_and_bolt-development-environment)
+  - [Development Environment](#nut_and_bolt-development-environment)
   - [File Structure](#file_folder-file-structure)
-  - [Build](#hammer-build)  
-  - [Deployment](#rocket-deployment)
 - [FAQ](#question-faq)
 - [Resources](#page_facing_up-resources)
 - [Gallery](#camera-gallery)
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
-- [License](#lock-license)
 
 ## :zap: Usage
 This project is to be used in either educational or industrial settings NOT for nefarious use. Threat Warrior was designed to be leveraged for personal, ariculutral, LEO (Law Enforcement Officer), or SAR (Search and Rescue) use.
@@ -99,27 +96,19 @@ Add a file structure here with the basic details about files, below is an exampl
 └── README.md
 ```
 
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
-
-###  :hammer: Build
-Write the build Instruction here.
-
-### :rocket: Deployment
-Write the deployment instruction here.
-
 ## :question: FAQ
-You can optionally add a FAQ section about the project.
+Will be updated upon asked questions...
 
 ##  :page_facing_up: Resources
-Add important resources here
+https://www.ultralytics.com
+https://opencv.org
 
 ##  :camera: Gallery
-Pictures of your project.
+Will be updated...
 
 ## :star2: Credit/Acknowledgment
-Credit the authors here.
-
-##  :lock: License
-Add a license here, or a link to it.
+Shout out to the following for all their help:
+- Dr. Park
+- Cadet Bonilla
+- Cadet Major
+- Cadet Malé
