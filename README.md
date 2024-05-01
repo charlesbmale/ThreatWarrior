@@ -6,7 +6,6 @@
 
 ## :ledger: Index
 
-- [About](#beginner-about)
 - [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
   - [Commands](#package-commands)
@@ -22,14 +21,12 @@
 - [Credit/Acknowledgment](#star2-creditacknowledgment)
 - [License](#lock-license)
 
-##  :beginner: About
-Add a detailed introduction about the project here, everything you want the reader to know.
-
 ## :zap: Usage
-Write about how to use this project.
+This project is to be used in either educational or industrial settings NOT for nefarious use. Threat Warrior was designed to be leveraged for personal, ariculutral, LEO (Law Enforcement Officer), or SAR (Search and Rescue) use.
 
 ###  :electric_plug: Installation
-- You can install by either forking the project off of GitHub or downloading the ZIP.
+For installation:
+- You can install by either forking this project off of GitHub or downloading the ZIP.
 - Once downloaded, you can pick the IDE or environment of your choice.
 - Once your environment is set, make sure to import/install the following dependencies (you may have to use pip3 if using the command line):
   - import pickle
@@ -43,15 +40,25 @@ Write about how to use this project.
   - from datetime import datetime
   - import pygame
   - from time import sleep
-  - from djitellopy import Tello, 
-- Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
-
-```
-$ pip3 install pickle; pip3 install cv2; pip3 install os; pip3 install numpy; pip3 install face_recognition, pip3 install cvzone; pip3 install sqlite3; pip3 install json; pip3 install pygame; and other necesary dependencies. 
-```
+  - from djitellopy import Tello,
+- Once the dependencies are in order, you must load the person you are trying to detect in the "Images" folder. To properly load the person the following conditions must be met:
+  - The image must be 32-bit color.
+  - The image must be a 220 x 220 square PNG.
+  - The image must follow the naming scheme of "00100X.PNG".
+- Upon loading the images refer to the "Resources" folder for the "students_data.json" file.
+- Ensure that the JSON file reflects the naming scheme of the images in the "Images" folder, as well as any other relevant or necessary information.
+- Upon completion of the JSON file run the "SetupStudentsDB.py" file to establish the database (if there is conflict with creating the database, make sure there are no databases in the file path).
+- After the aforementioned Python file is ran, the database will be created and the "EncodeGenerator.py" file should be ran as well.
+- Last but not least, run the "MainDetectionSystemV2.py" file and you should be well on your way to a functioning system.
 
 ###  :package: Commands
-- Commands to start the project.
+- Commands to start the project:
+```
+$ pip3 install pickle; pip3 install cv2; pip3 install os; pip3 install numpy; pip3 install face_recognition, pip3 install cvzone; pip3 install sqlite3; pip3 install json; pip3 install pygame; and other necesary dependencies.
+$ python3 SetupStudentsDB.py
+$ python3 EncodeGenerator.py
+$ python3 MainDetectionSystemV2.py
+```
 
 ##  :wrench: Development
 If you want other people to contribute to this project, this is the section, make sure you always add this.
