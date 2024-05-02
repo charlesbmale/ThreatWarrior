@@ -105,8 +105,11 @@ Add a file structure here with the basic details about files, below is an exampl
 Will be updated upon asked questions...
 
 ##  :page_facing_up: Resources
-https://www.ultralytics.com
-https://opencv.org
+- https://www.ultralytics.com
+- https://opencv.org
+- https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20User%20Manual%20v1.4.pdf
+- https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+- https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf
 
 ##  :camera: Gallery
 Will be updated...
